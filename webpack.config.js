@@ -1,5 +1,6 @@
 var path = require('path');
-var htmlWebpackPlugin = require('html-webpack-plugin')
+var htmlWebpackPlugin = require('html-webpack-plugin');
+var { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   mode: "none",
@@ -14,6 +15,7 @@ module.exports = {
     publicPath: "",
   },
   plugins: [
+    new CleanWebpackPlugin(),
     // new htmlWebpackPlugin({
     //   template: "./src/page1/index.html",
     //   chunks: ['commondll', 'page1'],
