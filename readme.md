@@ -1,5 +1,7 @@
 # 实践持续集成的例子
 
+[![Build Status](https://travis-ci.org/liubei90/demo-engineering-project.svg?branch=master)](https://travis-ci.org/liubei90/demo-engineering-project)
+
 ## 测试
 
 <https://mochajs.bootcss.com/>
